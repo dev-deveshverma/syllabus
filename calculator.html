@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.stap1{
+	        color:red;
+			height:80vh;
+	      }
+		  #display_answer
+		  {
+		  background-color:#303030;
+		  width:inherit;
+	      font-size:1.5rem;
+		  color:white;
+		  }
+		  #display
+		  {
+		   font-size:50px;
+		   
+		  }
+		  h1{color:red;
+		  text-align:center;}
+		  body{background:linear-gradient-(to left,red,yellow,red); 
+		  }
+		  .style{font-size:40px;
+		         color:red;
+				 font-size:2.5rem;
+				  
+		        }
+		  .style1{font-size:30px; color:red;}
+		  .style2{
+		      
+		  width:inherit;
+	      font-size:1.3rem;
+		  color:red;
+		     
+		   }
+		   h1{background-image:radial-gradient(green,yellow,green);
+
+		   }
+		  
+	</style>
+</head>
+<body name="alok">
+  <center><marquee width="280px"><h1>CALCULATOR</h1></marquee></center>
+  
+    <div class="stap1">
+		<center><form name="calculator">
+
+			<input type="text" name="answers" id="display_answer"><br>
+
+				<div id="display"><input type="button" class="style1" value="clear" onclick="calculator.answers.value=' ' ">
+
+		                                    <input type="button"  class="style1" value="=" onclick="calculator.answers.value =eval(calculator.answers.value)"><br>
+			
+
+              				<input type="button" class="style" value="7" onclick="calculator.answers.value +='7'">
+		 
+				<input type="button"  class="style"   value="8" onclick="calculator.answers.value +='8'">
+ 
+				<input type="button"  class="style" value="9" onclick="calculator.answers.value +='9'">
+
+				<input type="button"    class="style"   value="*" onclick="calculator.answers.value +='*'"><br>
+		       
+
+				<input type="button"   class="style" value="4" onclick="calculator.answers.value +='4'">
+
+				 
+				<input type="button"   class="style" value="5" onclick="calculator.answers.value +='5'">
+ 
+				<input type="button"   class="style" value="6" onclick="calculator.answers.value +='6'">
+				
+				<input type="button"    class="style" value="-" onclick="calculator.answers.value +='-'"><br>
+
+	
+
+				<input type="button"  class="style" value="1" onclick="calculator.answers.value +='1'">
+				
+				<input type="button"    class="style" value="2" onclick="calculator.answers.value +='2'">
+ 
+				<input type="button"   class="style" value="3" onclick="calculator.answers.value +='3'">
+				
+				<input type="button"   class="style" value="+" onclick="calculator.answers.value +='+'"><br>
+
+			 
+
+				<input type="button"   class="style"  value="." onclick="calculator.answers.value +='.'">
+
+				 
+				<input type="button"   class="style" value="0" onclick="calculator.answers.value +='0'">
+ 
+				<input type="button"    class="style" value="%" onclick="calculator.answers.value +='%'">
+				
+				<input type="button" class="style" value="/" onclick="calculator.answers.value +='/'"><br>
+				<input type="text" class="style2"name="ak"><br>
+				<input type="button" class="style2" value="click here" onclick="calculator.ak.value +='SHIVAM VERMA'"  >
+				<input type="button" class="style2" value="clear" onclick="calculator.ak.value =' '">
+				</div>
+			
+		</form></center>
+		
+	</div>
+
+</body>
+</html>
